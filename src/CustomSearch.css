@@ -1,0 +1,80 @@
+body {
+  background: #ffffff;
+  display: flex;
+}
+
+.form-container {
+  width: 1300px;
+  background-color: rgb(182, 182, 182);
+  margin: auto;
+  padding: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+input {
+  background: #ffffff;
+}
+input::placeholder {
+  font-style: italic;
+  font-size: 13px;
+  color: rgb(150, 150, 150);
+}
+
+.input-toggle-btn {
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #38d0eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.customsearch {
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  color: black;
+  text-align: center;
+}
+
+.search-tool {
+  margin-left: 30px;
+}
+
+.footer {
+  width: 1400px;
+  height: 170px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(27, 27, 27);
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 940px;
+}
