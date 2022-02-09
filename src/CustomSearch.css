@@ -36,23 +36,30 @@ input::placeholder {
   border: 2px solid #ffa4a4;
 }
 
-button {
+.mainsearchbutton {
   background: #38d0eb;
-  color: white;
+  height: 30px;
+  color: rgb(0, 0, 0);
   cursor: pointer;
-}
-
-button:disabled {
-  cursor: default;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  border-radius: 9px;
 }
 
 .customsearch {
+  background-color: #38d0eb;
   align-items: center;
-  width: 100px;
-  height: 50px;
-  font-size: large;
-  color: black;
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
   text-align: center;
+  align-items: center;
+  margin-left: 42%;
+  border-radius: 18px;
 }
 
 .search-tool {
@@ -77,4 +84,15 @@ button:disabled {
   padding: 10px;
   margin-right: 100px;
   margin-left: 940px;
+}
+
+.customheader {
+  margin-left: 50px;
+}
+
+.input-spacing {
+  margin-left: 20px;
+}
+
+.searchbtn {
 }

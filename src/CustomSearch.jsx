@@ -11,22 +11,22 @@ function CustomSearch() {
       <>
         <section>
           <section>
-            <h2>Search Your Dream Rental: </h2>  
+            <h2 className='customheader'>Search Your Dream Rental: </h2>  
               <form action="submit" className='search-tool'>
                 
-                <input type="text" placeholder='Duplex, Apartment,etc...' />
+                <input className='input-spacing'type="text" placeholder='Duplex, Apartment,etc...' />
                 &nbsp; 
-                <button typeof='submit'  > Search</button>
+                <button className='mainsearchbutton' typeof='submit'  > SEARCH</button>
               </form>
           </section>
           <br />
           <section>
-           <h2>Custom Search: </h2>
+           <h2  className='customheader'>Custom Search: </h2>
             <div className='form-container'>
               <form>
-                <label htmlFor="location"> Location</label>
+                <label htmlFor="location" > Location</label>
                 &nbsp; 
-                <input type="text" />
+                <input type="text" placeholder='Halifax, Canada'/>
                 <br /> <br />
                 <label htmlFor="accomodation" className=''>Accomodation Type</label>
                 &nbsp;
@@ -35,11 +35,11 @@ function CustomSearch() {
                   <option value="shortterm">Short-Term</option>                 
                 </select>
                 <br /> <br />
-                <label htmlFor="duration">Duration </label>
+                <label htmlFor="durationLabel">Duration </label>
                   <div /*on Change values type and number of days/months  */ >
-                    <input className='input-toggle-btn' type="radio" value="Male" name="gender" /> Days
+                    <input className='input-toggle-btn' type="radio" value="days" name="duration" /> Days
                     &nbsp;&nbsp;
-                    <input type="radio" value="Female" name="gender" /> Months
+                    <input type="radio" value="months" name="duration" /> Months
                     &nbsp;&nbsp;
                      <input type="text" placeholder='i.e. 15, 12, etc...'/>
                   </div>
@@ -57,7 +57,7 @@ function CustomSearch() {
                   </div>
                 </div>   
                 <br /><br /> <br /><br /> <br /><br /> <br /><br />
-                <button typeof='submit'  className='customsearch'> Search</button>
+                <button typeof='submit'  className='customsearch'> SEARCH</button>
               </form>
             </div>
           </section> 
