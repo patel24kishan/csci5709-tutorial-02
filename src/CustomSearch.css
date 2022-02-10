@@ -31,13 +31,6 @@ input::placeholder {
   font-style: italic;
 }
 
-/* .error {
-
-  font-size: 16px;
-  color: red;
-  margin-left: 65px;
-} */
-
 h5 {
   font-size: 16px;
   color: red;
@@ -115,7 +108,4 @@ h5 {
 
 .input-spacing {
   margin-left: 20px;
-}
-
-.searchbtn {
 }
