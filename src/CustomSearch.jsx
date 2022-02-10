@@ -69,14 +69,14 @@ function CustomSearch() {
                     <div className="form-group name1 col-md-6">
                       <label htmlFor="checkin">Check-In </label>
                       <DatePicker  popperPlacement="bottom-start"  selected={checkInDate} onChange={(date) => setCheckInDate(date)} /> 
-                      <h5 > * Lorem ipsum dolor sit amet</h5>
+                      {/* <h5 > * Lorem ipsum dolor sit amet</h5> */}
                   
                    </div>
 
                   <div className="form-group name2 col-md-6">
                       <label htmlFor="checkout">Check-Out </label>
                       <DatePicker selected={checkOutDate} onChange={(date) => setCheckOutDate(date)} />
-                        <h5 className='checkouterror' > * Lorem ipsum dolor sit amet</h5>
+                        {/* <h5 className='checkouterror' > * Lorem ipsum dolor sit amet</h5> */}
 
                   </div>
                 </div>   
