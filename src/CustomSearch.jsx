@@ -25,7 +25,7 @@ function CustomSearch() {
       <>
         <section>
           <section>
-            <h2 className='customheader'>Search Your Dream Rental: </h2>  
+            <h2 className='customheader'>Lorem ipsum dolor sit amet, consectetur: </h2>  
               <form action="submit" className='search-tool'> 
                 <input className='input-spacing'type="text" placeholder='Duplex, Apartment,etc...' />
                 &nbsp; 
