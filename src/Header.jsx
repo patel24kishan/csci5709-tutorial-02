@@ -6,29 +6,7 @@ import User from "./images/user.PNG";
 function Header() {
   return (
     <>
-        {/* <Navbar bg="light" variant="light">
-            <Container>   
-                <Navbar.Brand href="#home">
-                        <img
-                        alt=""
-                        src={Logo}
-                        width="150"
-                        height="80"
-                        className="position-relative top-0 start-0 mainlogo"
-                        />
-                </Navbar.Brand>
-
-                <Navbar.Brand href="#User">
-                        <img
-                        alt=""
-                        src={User}
-                        width="80"
-                        height="80"
-                        className="position-relative top-0 bottom-0 usericon"
-                        />
-                </Navbar.Brand>
-            </Container>
-        </Navbar> */}
+       
           <section className='header'>
             <section className='header-top'>
               <section className='header-top-logo'>
