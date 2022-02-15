@@ -19,7 +19,6 @@ const Loginpage = () => {
         ...credentials,
         [e.target.name]:e.target.value
       })
-      console.log(credentials); 
    }
 
   
@@ -29,7 +28,6 @@ const Loginpage = () => {
     let dataToSubmit=credentials;
     try
     {
-
       const data=await fetch(postURL,{
        method:'POST',
        headers:{
@@ -39,8 +37,8 @@ const Loginpage = () => {
        body:JSON.stringify(dataToSubmit)
      })
      console.log(data)
-     if(data.status){
-          navigate("/userlist")
+     if(data.status===200){
+          navigate("/userlist");
       }else{
         alert("Invalid Email/ Password");
       }
