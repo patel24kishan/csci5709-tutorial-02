@@ -29,23 +29,23 @@
 
 ### Loginpage.jsx
 
-_Lines 53 - 66_
+_Lines 52 - 65_
 
 ```
 <Container id="main-container" className="d-grid h-100">
-      <Form id="sign-in-form" className="text-center p-3 w-100" onSubmit={postData}>
-        <h1 className="mb-3 fs-3 fw-normal">SIGN IN</h1>
-        <Form.Group controlId="sign-in-email-address">
-          <Form.Control value={credentials.email} onChange={updateCredentials} name='email' type="email" size="lg" placeholder="Email address" autoComplete="username" className="position-relative" />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="sign-in-password">
-          <Form.Control value={credentials.password} onChange={updateCredentials} name='password' type="password" size="lg" placeholder="Password" autoComplete="current-password" className="position-relative" />
-        </Form.Group>
-        <div className="d-grid">
-          <Button type="submit" variant="primary" size="lg" >Sign in</Button>
-        </div>
-      </Form>
-    </Container>
+        <Form id="sign-in-form" className="text-center p-3 w-100 " onSubmit={postData}>
+          <h1 className="mb-3 fs-3 fw-bold text-white">SIGN IN</h1>
+          <Form.Group controlId="sign-in-email-address">
+            <Form.Control value={credentials.email} onChange={updateCredentials} name='email' type="email" size="lg" placeholder="Email address" autoComplete="username" className="position-relative" />
+          </Form.Group>
+          <Form.Group className="mb-3 mt-2" controlId="sign-in-password">
+            <Form.Control value={credentials.password} onChange={updateCredentials} name='password' type="password" size="lg" placeholder="Password" autoComplete="current-password" className="position-relative" />
+          </Form.Group>
+          <div className="d-grid">
+            <Button className='fw-bold rounded' type="submit" variant="primary" size="lg" >LOGIN</Button>
+          </div>
+        </Form>
+      </Container>
 ```
 
 The code above was created by adapting the code in [App.js](https://github.com/lyraddigital/react-bootstrap-login-form/blob/master/src/App.js) as shown below:
@@ -85,3 +85,4 @@ The code above was created by adapting the code in [App.js](https://github.com/l
 - [lyraddigital](https://github.com/lyraddigital)
 - [bootstrap](https://getbootstrap.com/)
 - [react-bootstrap](https://react-bootstrap.github.io/)
+- [gradients](https://www.w3schools.com/css/css3_gradients.asp)
